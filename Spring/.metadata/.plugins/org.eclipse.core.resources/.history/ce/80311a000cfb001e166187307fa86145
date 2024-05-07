@@ -1,0 +1,20 @@
+package com.ibm.demo;
+
+class Employee{
+	
+	int eid;
+	String firstName;
+	double salary;
+}
+
+public class SpringContextDemo {
+
+	public static void main(String[] args) {
+		
+		Employee emp =new Employee();
+		
+		System.out.println(emp.hashCode());
+
+	}
+
+}

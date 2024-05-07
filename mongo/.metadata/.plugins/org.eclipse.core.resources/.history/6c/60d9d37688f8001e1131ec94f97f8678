@@ -1,0 +1,34 @@
+import com.mongodb.client.*;
+import org.bson.Document;
+
+public class MongoDbDemo {
+
+	public static void main(String[] args) {
+		
+		String url = "mongodb://localhost:27017/";
+		
+		System.out.println("Start");
+		
+		MongoClient client = MongoClients.create(url);
+		MongoDatabase database = client.getDatabase("ibm");
+		MongoCollection<Document> collection = database.getCollection("restaurants");
+		
+		long docCount = collection.countDocuments();
+		System.out.println(docCount);
+		
+		FindIterable<Document> docs = collection.find();
+		
+		//Print all documents
+		docs.forEach(obj->{
+			System.out.println(obj);
+		});
+		
+		//Print the first document
+		Document doc = docs.first();
+		System.out.println(doc);
+		
+		System.out.println("End");
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.ibm.dem.model;
+
+public class Employee {
+	
+		int eid;
+		String firstName;
+		double salary;
+		
+	}

@@ -1,0 +1,40 @@
+body{
+font-family: 'Arial', sans-serif;
+padding: 0;
+display: flex;
+margin:0;
+flex-direction: column;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    width: 20%;
+    background-color: darkblue;
+    padding: 20px;
+    height: 100vh;
+}
+.document{
+    width: 80%;
+    height: 100vh;
+    padding-left: 10px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white ;
+    display: block;
+    padding: 10px;
+}
+.navbar ul li a:hover {
+    background-color: #1abc9c;
+}

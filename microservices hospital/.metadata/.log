@@ -1,0 +1,182 @@
+!SESSION 2024-04-22 10:02:21.671 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/masao/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/masao/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-22 10:02:22.890
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-22 10:02:23.029
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-22 10:02:58.357
+!MESSAGE Logback config file: /Users/masao/Desktop/Training/microservices hospital/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-22 10:02:58.530
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-22 10:02:58.530
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-22 10:02:58.708
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-22 10:02:58.708
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:41.180
+!MESSAGE Classpath changed for project: ibm-appointment-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:41.180
+!MESSAGE Classpath changed for project: ibm-clinic-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:41.181
+!MESSAGE Classpath changed for project: ibm-clinic-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:41.181
+!MESSAGE Classpath changed for project: ibm-doctor-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:41.181
+!MESSAGE Classpath changed for project: ibm-patient-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.059
+!MESSAGE Classpath changed for project: ibm-appointment-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.061
+!MESSAGE Boot project ADDED: ibm-appointment-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.061
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.078
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.078
+!MESSAGE Classpath changed for project: ibm-clinic-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.083
+!MESSAGE Boot project ADDED: ibm-clinic-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.083
+!MESSAGE Classpath changed for project: ibm-clinic-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.086
+!MESSAGE Boot project ADDED: ibm-clinic-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.087
+!MESSAGE Classpath changed for project: ibm-doctor-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.088
+!MESSAGE Boot project ADDED: ibm-doctor-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.088
+!MESSAGE Classpath changed for project: ibm-patient-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.089
+!MESSAGE Boot project ADDED: ibm-patient-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-22 10:03:42.098
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/masao/Desktop/Training/microservices hospital/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1713760422097
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.098
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-22 10:03:42.109
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 30380
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.303
+!MESSAGE Classpath changed for project: ibm-clinic-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.458
+!MESSAGE Classpath changed for project: ibm-clinic-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.929
+!MESSAGE Classpath changed for project: ibm-appointment-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.930
+!MESSAGE Classpath changed for project: ibm-clinic-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.930
+!MESSAGE Classpath changed for project: ibm-clinic-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.930
+!MESSAGE Classpath changed for project: ibm-doctor-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:42.930
+!MESSAGE Classpath changed for project: ibm-patient-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:43.142
+!MESSAGE Classpath changed for project: ibm-appointment-service
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-22 10:03:43.596
+!MESSAGE Could not download javadoc for io.netty:netty-resolver-dns-native-macos:4.1.107.Finalosx-x86_64
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.107.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.107.Final
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2024-04-22 10:03:43.596
+!MESSAGE Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.107.Final
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-04-22 10:03:43.596
+!MESSAGE Missing io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.107.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-22 10:03:44.564
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2024-04-22 10:03:44.564
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-04-22 10:03:44.564
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:4.1.0
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 10:03:44.714
+!MESSAGE Classpath changed for project: ibm-clinic-api-gateway

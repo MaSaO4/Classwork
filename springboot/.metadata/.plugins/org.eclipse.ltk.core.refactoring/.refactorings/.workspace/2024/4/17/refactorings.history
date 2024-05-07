@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 5 resources" deleteContents="false" description="Delete 5 resources" element1="/ibm-appointment-service" element2="/ibm-clinic-api-gateway" element3="/ibm-clinic-eureka-server" element4="/ibm-doctor-service" element5="/ibm-patient-service" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1713760332145"/>
+</session>

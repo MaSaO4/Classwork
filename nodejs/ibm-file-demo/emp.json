@@ -1,0 +1,22 @@
+[
+    { "eid": 1, "firstName": "John", "salary": 50000 },
+    { "eid": 2, "firstName": "Alice", "salary": 60000 },
+    { "eid": 3, "firstName": "Bob", "salary": 55000 },
+    { "eid": 4, "firstName": "Emily", "salary": 65000 },
+    { "eid": 5, "firstName": "David", "salary": 70000 },
+    { "eid": 6, "firstName": "Sarah", "salary": 52000 },
+    { "eid": 7, "firstName": "Michael", "salary": 58000 },
+    { "eid": 8, "firstName": "Jessica", "salary": 62000 },
+    { "eid": 9, "firstName": "Daniel", "salary": 54000 },
+    { "eid": 10, "firstName": "Sophia", "salary": 67000 },
+    { "eid": 11, "firstName": "James", "salary": 48000 },
+    { "eid": 12, "firstName": "Emma", "salary": 53000 },
+    { "eid": 13, "firstName": "William", "salary": 59000 },
+    { "eid": 14, "firstName": "Olivia", "salary": 61000 },
+    { "eid": 15, "firstName": "Liam", "salary": 56000 },
+    { "eid": 16, "firstName": "Ava", "salary": 64000 },
+    { "eid": 17, "firstName": "Alexander", "salary": 63000 },
+    { "eid": 18, "firstName": "Charlotte", "salary": 57000 },
+    { "eid": 19, "firstName": "Ethan", "salary": 68000 },
+    { "eid": 20, "firstName": "Dominic", "salary": 94000 }
+]

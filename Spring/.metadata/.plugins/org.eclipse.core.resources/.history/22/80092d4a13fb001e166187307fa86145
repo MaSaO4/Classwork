@@ -1,0 +1,15 @@
+package com.ibm.demo;
+
+public class AnnoConfigDemo {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext ontext =AnnotationContextApplicationContext("");
+		
+		Employee emp = context.getBean(Employee.class);
+		
+		System.out.println(emp.toString());
+
+	}
+
+}

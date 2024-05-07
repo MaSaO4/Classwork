@@ -1,0 +1,23 @@
+package com.ibm.demo;
+
+import com.ibm.demo.model.Employee;
+
+import org.springframework.context.*;
+import org.springframework.context.support.*;
+
+public class SpringContextDemo {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext = new ClassPathXmlApplicationContext();
+		
+//		Employee emp =new Employee();
+		Employee emp = context.getBean(Employee.class);
+		
+		System.out.println(emp.hashCode());
+		
+		((AbstractApplicationContext)context).close();
+
+	}
+
+}

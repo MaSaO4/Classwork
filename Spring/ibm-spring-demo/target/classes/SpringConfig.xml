@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee" class="com.ibm.demo.model.Employee">
+		<property name="eid">
+			<value>101</value>
+		</property>
+		<property name="firstName">
+			<value>"Suresh"</value>
+		</property>
+		<property name="salary">
+			<value>350000</value>
+		</property>
+	</bean>
+
+	<bean id="employee1" class="com.ibm.demo.model.Employee">
+		<property name="eid">
+			<value>102</value>
+		</property>
+		<property name="firstName">
+			<value>"Ramesh"</value>
+		</property>
+		<property name="salary">
+			<value>950000</value>
+		</property>
+	</bean>
+
+</beans>

@@ -1,0 +1,22 @@
+import com.mongodb.client.*;
+
+public class MongoDbDemo {
+
+	public static void main(String[] args) {
+		
+		String url = "mongodb;//localhost;27017/";
+		
+		System.out.println();
+		
+		MongoClient client = MongoClients.create(url);
+		MongoDatabase databse = client.getDatabase("");
+		MongoDatabase<Document> collection = database.getCollection("");
+		
+		long docCount = collection.countDocuments();
+		System.out.println(docCount);
+		
+		System.out.println("End");
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ibm-employee-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine-app-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "4.19.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "jasmine":"5.1,0",
+    "jest":"29.7.0",
+    "supertest": "7.0.0"
+  }
+}
